@@ -1,0 +1,33 @@
+.form-group, .btn-primary{
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+    font-size: 14px;
+}
+input, .btn{
+    border-radius: 0;
+}
+
+form{
+    padding: 15px;
+}
+
+label{
+    font-size: 14px !important;
+}
+
+.form{
+    width:390px;
+    height: 420px;
+    margin: auto;
+    position: RELATIVE;
+    TOP: 20%;
+    background: #fff;
+    padding: 15px;
+}
+.custom-container{
+    background: #000;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+}
