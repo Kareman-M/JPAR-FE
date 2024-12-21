@@ -12,12 +12,18 @@ import { AngularMaterialModule } from './Shared/Libraries/angular-material/angul
 
 import { LoginComponent } from './auth/login/login.component';
 import { HomeComponent } from './pages/componants/home/home.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { ApplicantRegisterComponent } from './auth/register/applicant-register/applicant-register.component';
+import { RecruiterRegisterComponent } from './auth/register/recruiter-register/recruiter-register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RegisterComponent,
+    ApplicantRegisterComponent,
+    RecruiterRegisterComponent
   ],
   imports: [
     BrowserModule,

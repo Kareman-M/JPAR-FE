@@ -29,10 +29,9 @@ export class LoginComponent {
     };
 
     this.authService.signIn(loginModel).subscribe((res :any )=> {
-      console.log(res);
       var result = res?.result ;
       Object.keys(result).map((key:string)=> {
-        localStorage.setItem(key, result[key])
+        localStorage.setItem(key, result[key]);
       })
     });
   }

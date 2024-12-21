@@ -12,7 +12,7 @@
                 <input type="password"  formControlName="Password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
              
-              <button type="button" class="btn btn-primary" (click)="signIn()">Sign In</button>
+              <button type="button" class="btn btn-primary" (click)="signIn()" [disabled]="!loginForm.valid">Sign In</button>
 
         </form>
     </div>
